@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+#headre-nav{
+    background: #D35400;
+    border-radius: 0px;
+    padding: 6px;
+}
+
+.navbar-header h3{
+    margin: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+#collapsable-nav > ul > li > a{
+    color: #fff;
+}
+
+.container h1{
+    margin: 20px 20px 40px 20px;
+}
+
+.col-md-12{
+   min-height: 100vh;
+   margin-bottom: 50px;
+}
+
+  .col-xs-12 > H3{
+    font-weight: bold;
+}
+
+ section{
+  border: solid 1px #CACFD2;
+  border-radius: 10px;
+  background: #ECF0F1;
+  padding: 10px; 
+  font-size: 20px;
+
+}
+
+#collapsable-nav li a{
+ border-bottom: 1px solid #fff ;          
+}
+
+
+  
+     /********** maqueta: movil **********/
+     @media (max-width: 767px) {
+        #headre-nav{
+            padding: 0px;
+        }
+        #collapsable-nav{
+            background:#E59866;
+            }
+            section {
+                font-size:13px ;
+            }
+            .row{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+     }
